@@ -1,0 +1,23 @@
+name: theme_seed_drupal
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - theme_seed_drupal/base
+  - theme_seed_drupal/main
+  - theme_seed_drupal/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - theme_seed_drupal/user
+  core/drupal.dropbutton:
+    - theme_seed_drupal/dropbutton
+  core/drupal.dialog:
+    - theme_seed_drupal/dialog
+  file/drupal.file:
+    - theme_seed_drupal/file
+  core/drupal.progress:
+    - theme_seed_drupal/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.2.7'

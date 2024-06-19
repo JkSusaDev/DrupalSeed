@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Custom Drupal theme.
+custom_drupal.settings:
+  type: theme_settings
+  label: 'Custom Drupal settings'
+  mapping:
+    example:
+      type: string
+      label: Example
